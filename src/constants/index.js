@@ -55,6 +55,7 @@ import {
   SiPostman,
   SiGit,
   SiMysql,
+  // SiNodeDotJs,
   SiSolidity,
   SiNetlify,
   SiChartdotjs,
@@ -73,6 +74,8 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiPhpmyadmin,
+  SiExpress,
+  SiMongodb,
   SiMicrosoftazure
 } from "react-icons/si";
 
@@ -112,10 +115,6 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
-  },
-  {
-    id: "openSource",
-    title: "Open Source",
   },
   {
     id: "extraCurricular",
@@ -426,527 +425,290 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "RoutePulse",
+    github: "",
+    link: "",
+    // image: routepulse_image, // Replace with the actual image variable
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "A web application for Automatic Bus Scheduling and Route Management, developed using React.js, Node.js, Express.js, and MongoDB.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
-      },
+      { id: "icon-1", icon: SiReact, name: "React.js" },
+      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-3", icon: SiExpress, name: "Express.js" },
+      { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "Grow Together",
+    github: "",
+    link: "",
+    // image: growtogether_image, // Replace with the actual image variable
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "A collaborative learning platform featuring user groups, chatrooms, collaborative document editing, live video sessions, and progress tracking.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      { id: "icon-1", icon: SiReact, name: "React.js" },
+      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-3", icon: SiExpress, name: "Express.js" },
+      { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+    title: "Movie Recommendation App",
+    github: "",
+    link: "",
+    // image: movie_recommendation_image, // Replace with the actual image variable
+    content: "A Movie Recommendation app using HTML, CSS, and JavaScript, with data fetched from a public API.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
+      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
+    title: "Qurtle Innovations",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+    link: "",
+    // image: qurtle_image, // Replace with the actual image variable
+    content: "Corporate website developed for Qurtle Innovations during my internship at Cloud Quest.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
+      { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
+      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
+      { id: "icon-4", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-5", icon: SiMongodb, name: "MongoDB" },
     ],
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
+    title: "To-Do List",
     github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+    link: "",
+    // image: todo_image, // Replace with the actual image variable
+    content: "A simple and efficient To-Do List app built with HTML, CSS, and JavaScript.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
+      { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
+      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
   {
     id: "project-6",
-    title: "Career Development Centre, NITK Website",
+    title: "Weather App",
     github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
+    link: "",
+    // image: weather_image, // Replace with the actual image variable
+    content: "A Weather app utilizing a public weather API to fetch and display real-time weather data.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
+      { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
+      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
   {
     id: "project-7",
-    title: "Huntly",
+    title: "Personal Portfolio",
     github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
     link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+    // image: portfolio_image, // Replace with the actual image variable
+    content: "My personal portfolio website developed using the MERN stack.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
+      { id: "icon-1", icon: SiReact, name: "React.js" },
+      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-3", icon: SiExpress, name: "Express.js" },
+      { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
   },
 ];
+
 
 // Add links to blogs here
 export const blogPosts = [
   {
     id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    title: "RoutePulse - Automatic Bus Scheduling and Route Management",
+    link: "#",  // Replace with the actual link to the blog post
+    date: new Date().toLocaleDateString(),
+    image: "https://via.placeholder.com/600/92c952",  // Replace with your actual image URL
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "Technology"
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "Bus Scheduling"
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "Route Management"
       },
     ],
   },
   {
     id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
+    title: "Grow Together - Collaborative Learning Platform",
+    link: "#",  // Replace with the actual link to the blog post
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
+    image: "https://via.placeholder.com/600/d32776",  // Replace with your actual image URL
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "Collaboration"
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "Learning"
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "Education"
       },
     ],
   },
   {
     id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
+    title: "Qurtle Innovations - Our Journey",
+    link: "#",  // Replace with the actual link to the blog post
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
+    image: "https://via.placeholder.com/600/771796",  // Replace with your actual image URL
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "Innovation"
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "Tech"
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "Company"
       },
     ],
   },
 ];
+
 
 // Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
 export const stats = [
   {
     id: "stats-1",
-    title: "Organisations",
-    value: "2+",
+    title: "Hackathons & Competitions",
+    value: "5+",
   },
   {
     id: "stats-2",
-    title: "Issues Opened",
+    title: "Major Projects",
     value: "6+",
   },
   {
     id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
+    title: "Certifications",
+    value: "2+",
+  },
+  {
+    id: "stats-4",
+    title: "Coding Profiles",
+    value: "3+",
   },
 ];
+
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    organisation: "Smart India Hackathon",
+    title: "Team Leader",
+    duration: "August 2024",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Led the 'The Code Sneaker's' team to build 'RoutePulse,' a web application for automatic bus scheduling and route management.",
+        link: "",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
+        text: "Focused on backend development using Node.js and MongoDB, delivering innovative IT solutions.",
+        link: "",
       },
     ],
-    logo: devfolio,
+    logo: "", // Add the logo for Smart India Hackathon if available
   },
   {
     id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
+    organisation: "Hackvision 2024",
+    title: "Full Stack Developer",
+    duration: "November 2024",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
+        text: "Developed the 'Grow Together' platform, a collaborative learning app using the MERN stack.",
         link: "",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        text: "Implemented features like user groups, chatrooms, live sessions, and progress tracking to enhance collaboration.",
+        link: "",
       },
     ],
-    logo: gdsc,
+    logo: "", // Add the logo for Hackvision if available
   },
   {
     id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
+    organisation: "GLA University",
+    title: "Coding Competitions Participant",
+    duration: "2023-2024",
     content: [
       {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
+        text: "Participated in coding events like BCA-O-CRATES and Hackspace, winning recognition for innovative solutions.",
         link: "",
       },
       {
-        text: "Won 7 inter-college solo dance competitions",
+        text: "Actively engaged in internal hackathons, contributing to team success with technical expertise.",
         link: "",
       },
     ],
-    logo: genesis,
+    logo: "", // Add a relevant logo for GLA University or the events
   },
   {
     id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
+    organisation: "GLA Quiz Competition",
+    title: "Quiz Participant",
+    duration: "October 2023",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
+        text: "Participated in the Nutrition Day quiz competition and demonstrated knowledge in diverse domains.",
         link: "",
       },
     ],
-    logo: ecell,
+    logo: "", // Add a quiz-related logo if available
+  },
+  {
+    id: 5,
+    organisation: "Cloud Quest",
+    title: "Full Stack Developer Intern",
+    duration: "July 2024 - Present",
+    content: [
+      {
+        text: "Worked on web application development using MERN stack, focusing on RESTful API design and secure backend systems.",
+        link: "",
+      },
+      {
+        text: "Collaborated with cross-functional teams to deploy scalable and feature-rich web platforms.",
+        link: "",
+      },
+    ],
+    logo: "", // Add the logo for Cloud Quest if available
   },
 ];
+
 
 // Links to your social media profiles
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "www.linkedin.com/in/aman-gupta-a11a672ab",
+    link: "https://www.linkedin.com/in/aman-gupta-a11a672ab",
   },
   {
     id: "social-media-2",
@@ -986,9 +748,102 @@ export const aboutMe = {
   `
 };
 
+export const contributions = [
+  {
+    id: 1,
+    title: "Improve authentication system",
+    repo: "auth-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/auth-service/pull/123",
+    status: "MERGED",
+    number: "#123",
+    linesAdded: 50,
+    linesDeleted: 10,
+  },
+  {
+    id: 2,
+    title: "Refactor database queries",
+    repo: "db-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/db-service/pull/124",
+    status: "OPEN",
+    number: "#124",
+    linesAdded: 30,
+    linesDeleted: 5,
+  },
+  {
+    id: 3,
+    title: "Update user interface design",
+    repo: "frontend-app",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/frontend-app/pull/125",
+    status: "MERGED",
+    number: "#125",
+    linesAdded: 120,
+    linesDeleted: 15,
+  },
+  {
+    id: 4,
+    title: "Fix issue with session expiration",
+    repo: "auth-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/auth-service/pull/126",
+    status: "OPEN",
+    number: "#126",
+    linesAdded: 20,
+    linesDeleted: 3,
+  },
+  {
+    id: 5,
+    title: "Improve API documentation",
+    repo: "api-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/api-service/pull/127",
+    status: "MERGED",
+    number: "#127",
+    linesAdded: 40,
+    linesDeleted: 5,
+  },
+  {
+    id: 6,
+    title: "Add new feature for reporting",
+    repo: "frontend-app",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/frontend-app/pull/128",
+    status: "OPEN",
+    number: "#128",
+    linesAdded: 80,
+    linesDeleted: 10,
+  },
+  {
+    id: 7,
+    title: "Fix bug in file upload system",
+    repo: "file-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/file-service/pull/129",
+    status: "MERGED",
+    number: "#129",
+    linesAdded: 60,
+    linesDeleted: 8,
+  },
+  {
+    id: 8,
+    title: "Optimize search algorithm",
+    repo: "search-service",
+    organization: "MyOrganization",
+    logoUrl: "https://via.placeholder.com/30",
+    link: "https://github.com/MyOrganization/search-service/pull/130",
+    status: "OPEN",
+    number: "#130",
+    linesAdded: 100,
+    linesDeleted: 20,
+  },
+];
 
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
-
-// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
-export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
