@@ -121,5 +121,7 @@ export {
   freelancelogo,
   glauniversityicon,
   veerabdulhameedicon,
-  sikandaraoraoicon
+  sikandaraoraoicon,
+  sihlogo,
+  hackvisionlogo
 };
