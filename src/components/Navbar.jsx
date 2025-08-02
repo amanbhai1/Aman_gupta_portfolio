@@ -11,8 +11,8 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={parthmittal}
-          alt="Parth Mittal"
+          src={amangupta}
+          alt="Aman Gupta"
           className="w-[80px] h-[80px]"
         />
       </a>
