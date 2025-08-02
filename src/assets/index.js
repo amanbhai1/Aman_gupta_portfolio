@@ -81,6 +81,7 @@ export {
   zulip,
   cdc,
   parthmittal,
+  amangupta,
   profilePic,
   chargeswap,
   placeicon,
