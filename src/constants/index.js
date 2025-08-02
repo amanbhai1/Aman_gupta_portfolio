@@ -145,7 +145,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: glauniversityicon,
+    icon: glaofficiallogo,
     title: "GLA University, Mathura",
     degree: "Bachelor of Computer Applications (BCA)",
     duration: "2021 - 2024",
