@@ -26,7 +26,14 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  growtogether,
+  routepulse,
+  movieapp,
+  weatherapp,
+  cloudquestlogo,
+  glalogo,
+  freelancelogo
 } from "../assets";
 
 import {
@@ -846,4 +853,3 @@ export const contributions = [
     linesDeleted: 20,
   },
 ];
-
