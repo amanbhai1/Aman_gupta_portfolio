@@ -1,4 +1,5 @@
 import {
+  cloud,
   nitk,
   cluboard,
   cash_flow,
@@ -69,7 +70,7 @@ import {
   SiPostman,
   SiGit,
   SiMysql,
-  // SiNodeDotJs,
+  SiNodedotjs,
   SiSolidity,
   SiNetlify,
   SiChartdotjs,
@@ -90,7 +91,10 @@ import {
   SiPhpmyadmin,
   SiExpress,
   SiMongodb,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiPhp,
+  SiCss3,
+  SiGithub,
 } from "react-icons/si";
 
 import {
@@ -106,7 +110,7 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/16dxb8z8urBe9yXKLi-7Xa4__-POq-Peo/view?usp=sharing";
 export const repoLink = "#";
@@ -192,64 +196,76 @@ export const achievements = [
     content1: "Secured 1st place in the Hackvision 2024 competition at GLA University.",
     content2: "Developed the 'Grow Together' web application for collaborative learning.",
     content3: "Built using the MERN stack with features like user groups, chatbots, collaborative document editing, live video sessions, and progress tracking.",
-    article: "https://example.com/hackvision2024", // Replace with actual link
-    project: "https://devfolio.co/projects/grow-together",
-    youtube: "https://youtu.be/examplelink", // Replace with actual link
+    project: "https://grow-together-frontend.vercel.app/https://grow-together-frontend.vercel.app/",
+    youtube: "#", // Add actual YouTube link when available
   },
   {
     id: "a-2",
     icon: polkadot,
-    event: "Hackspace@GLA (Abacus, GLA)",
-    position: "Participated",
-    content1: "Competed in Hackspace@GLA (Abacus, GLA) in February 2024.",
-    content2: "",
-    content3: "",
+    event: "Internal Smart India Hackathon",
+    position: "Top 5 Finalists",
+    content1: "Reached Top 5 in Internal Smart India Hackathon 2024 at GLA University.",
+    content2: "Worked on 'RoutePulse' – a web app for Automatic Bus Scheduling & Route Management.",
+    content3: "Used React.js, Node.js, Express, and MongoDB to build a real-thttps://routepulsedtc.vercel.app/loginme scheduling platform.",
+    project: "https://routepulsedtc.vercel.app", // Add actual project link
   },
   {
     id: "a-3",
     icon: lightspeed,
-    event: "BCA-O-CRATES, GLA",
+    event: "Hackspace@GLA (Abacus, GLA)",
     position: "Participant",
-    content1: "Participated in the BCA-O-CRATES competition at GLA University in November 2023.",
-    content2: "",
-    content3: "",
+    content1: "Competed in Hackspace@GLA (Abacus, GLA) in February 2024.",
   },
   {
     id: "a-4",
-    icon: dennisivy,
-    event: "Quiz Competition on Nutrition Day, GLA",
+    icon: genesis,
+    event: "BCA-O-CRATES, GLA",
     position: "Participant",
-    content1: "Competed in the Quiz Competition on Nutrition Day at GLA University in October 2023.",
-    content2: "",
-    content3: "",
+    content1: "Participated in the BCA-O-CRATES competition at GLA University in November 2023.",
   },
   {
     id: "a-5",
-    icon: manipal,
-    event: "Internal Smart India Hackathon, GLA University",
+    icon: dennisivy,
+    event: "Nutrition Day Quiz, GLA",
     position: "Participant",
-    content1: "Participated in the Internal Smart India Hackathon at GLA University in August 2024.",
-    content2: "",
-    content3: "",
+    content1: "Competed in the Quiz Competition on Nutrition Day at GLA University in October 2023.",
   },
   {
     id: "a-6",
-    icon: icon,
-    event: "Hackvision 2024",
-    position: "1st Position",
-    content1: "Secured 1st place in Hackvision 2024 at GLA University, working on the 'Grow Together' project.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/grow-together", // Replace with actual project link
+    icon: ethforall,
+    event: "Cloud Quest Internship",
+    position: "Full Stack Developer",
+    content1: "Working as a Full Stack Developer at Cloud Quest since July 2024.",
+    content2: "Building secure REST APIs and contributing to scalable applications using the MERN stack.",
+    content3: "Collaborating with frontend teams and involved in deployment and testing workflows.",
   },
   {
     id: "a-7",
-    icon: ethforall,
-    event: "Hackvision 2024",
-    position: "Winner",
-    content1: "Winner in Hackvision 2024 with the 'Grow Together' project.",
-    content2: "Collaborative learning platform developed using MERN stack.",
-    content3: "Successfully built a platform for students and professionals to learn and collaborate.",
+    icon: gdsc,
+    event: "Cisco Certifications",
+    position: "HTML & CSS Certified",
+    content1: "Completed HTML & CSS certification from Cisco ThingQbator Program.",
+    content2: "Built responsive layouts and learned modern web styling techniques.",
+  },
+  {
+    id: "a-8",
+    icon: ecell,
+    event: "MS Office Certification",
+    position: "Certified",
+    content1: "Certified in Microsoft Word, Excel, and PowerPoint from Udemy.",
+    content2: "Improved productivity and documentation skills for professional use.",
+  },
+  {
+    id: "a-9",
+    icon: huntly,
+    event: "Coding Profiles",
+    position: "Active Coder",
+    content1: "GfG: 100+ problems solved | HackerRank: 5⭐ Java, 4⭐ Python",
+    content2: "Profile Links:",
+    links: [
+      "https://auth.geeksforgeeks.org/user/amangupvq2l/practice",
+      "https://www.hackerrank.com/amangupt121"
+    ],
   },
 ];
 
@@ -259,41 +275,13 @@ export const skills = [
   {
     title: "Programming Languages",
     items: [
-      {
-        id: "pl-1",
-        icon: SiPhpmyadmin,
-        name: "PhpMyAdmin",
-      },
-      {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
+      { id: "pl-1", icon: SiPhp, name: "PHP" },
+      { id: "pl-2", icon: SiPython, name: "Python" },
+      { id: "pl-3", icon: SiCplusplus, name: "C++" },
+      { id: "pl-4", icon: DiJava, name: "Java" },
+      { id: "pl-5", icon: AiFillHtml5, name: "HTML" },
+      { id: "pl-6", icon: SiCss3, name: "CSS" },
+      { id: "pl-7", icon: SiJavascript, name: "JavaScript" },
     ],
   },
   {
@@ -324,31 +312,11 @@ export const skills = [
   {
     title: "Tools",
     items: [
-      {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
-      },
-      {
-        id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
-      },
-      {
-        id: "t-5",
-        icon: SiGit,
-        name: "Git",
-      },
-      {
-        id: "t-6",
-        icon: AiFillGithub,
-        name: "GitHub",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
+      { id: "t-1", icon: SiMysql, name: "MySQL" },
+      { id: "t-2", icon: SiVisualstudiocode, name: "VS Code" },
+      { id: "t-3", icon: SiGit, name: "Git" },
+      { id: "t-4", icon: SiGithub, name: "GitHub" },
+      { id: "t-5", icon: SiNetlify, name: "Netlify" },
     ],
   },
 ];
@@ -364,14 +332,8 @@ export const experiences = [
         title: "Full Stack Developer",
         duration: "Jul 2024 - Present",
         content: [
-          {
-            text: "Building secure RESTful APIs using MERN stack (MongoDB, Express.js, React.js, Node.js).",
-            link: "",
-          },
-          {
-            text: "Collaborating with teams to design, test, and deploy innovative features.",
-            link: "",
-          },
+          { text: "Building secure RESTful APIs using MERN stack (MongoDB, Express.js, React.js, Node.js)." },
+          { text: "Collaborating with teams to design, test, and deploy innovative features." },
         ],
       },
     ],
@@ -382,31 +344,19 @@ export const experiences = [
     link: "https://www.gla.ac.in/",
     positions: [
       {
-        title: "Hackathon Participant (Smart India Hackathon - RoutePulse)",
+        title: "Backend Lead (Smart India Hackathon - RoutePulse)",
         duration: "Aug 2024",
         content: [
-          {
-            text: "Backend Lead for the RoutePulse project, focusing on automatic bus scheduling and route management.",
-            link: "",
-          },
-          {
-            text: "Developed APIs and managed server-side logic for optimal route generation.",
-            link: "",
-          },
+          { text: "Developed and managed backend logic for automatic bus scheduling using Node.js and Express." },
+          { text: "Led API development for optimal route generation and management." },
         ],
       },
       {
-        title: "Hackathon Participant (Hackvision 2024 - Grow Together)",
+        title: "Hackathon Winner (Hackvision 2024 - Grow Together)",
         duration: "Nov 2024",
         content: [
-          {
-            text: "Collaborated on the development of a collaborative learning platform using the MERN stack.",
-            link: "",
-          },
-          {
-            text: "Integrated features like live video sessions, chatrooms, and a collaborative document editor.",
-            link: "",
-          },
+          { text: "Built a collaborative MERN stack platform with live video, chatrooms, and collaborative editing." },
+          { text: "Integrated user authentication and real-time data sync features." },
         ],
       },
     ],
@@ -420,14 +370,8 @@ export const experiences = [
         title: "Full Stack Developer",
         duration: "Feb 2024 - Jul 2024",
         content: [
-          {
-            text: "Developed a Student Management System for managing student data using HTML, CSS, PHP, and SQL.",
-            link: "",
-          },
-          {
-            text: "Integrated secure database management with PhpMyAdmin for seamless data operations.",
-            link: "",
-          },
+          { text: "Created a Student Management System with PHP, HTML/CSS, and MySQL." },
+          { text: "Handled database CRUD operations using PhpMyAdmin." },
         ],
       },
     ],
@@ -447,7 +391,7 @@ export const projects = [
       "A web application for Automatic Bus Scheduling and Route Management, developed using React.js, Node.js, Express.js, and MongoDB.",
     stack: [
       { id: "icon-1", icon: SiReact, name: "React.js" },
-      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-2", icon: SiNodedotjs, name: "Node.js" },
       { id: "icon-3", icon: SiExpress, name: "Express.js" },
       { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
@@ -462,7 +406,7 @@ export const projects = [
       "A collaborative learning platform featuring user groups, chatrooms, collaborative document editing, live video sessions, and progress tracking.",
     stack: [
       { id: "icon-1", icon: SiReact, name: "React.js" },
-      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-2", icon: SiNodedotjs, name: "Node.js" },
       { id: "icon-3", icon: SiExpress, name: "Express.js" },
       { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
@@ -476,7 +420,7 @@ export const projects = [
     content: "A Movie Recommendation app using HTML, CSS, and JavaScript, with data fetched from a public API.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
-      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-2", icon: SiCss3, name: "CSS" },
       { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
@@ -489,9 +433,9 @@ export const projects = [
     content: "Corporate website developed for Qurtle Innovations during my internship at Cloud Quest.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
-      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-2", icon: SiCss3, name: "CSS" },
       { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
-      { id: "icon-4", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-4", icon: SiNodedotjs, name: "Node.js" },
       { id: "icon-5", icon: SiMongodb, name: "MongoDB" },
     ],
   },
@@ -504,7 +448,7 @@ export const projects = [
     content: "A simple and efficient To-Do List app built with HTML, CSS, and JavaScript.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
-      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-2", icon: SiCss3, name: "CSS" },
       { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
@@ -517,7 +461,7 @@ export const projects = [
     content: "A Weather app utilizing a public weather API to fetch and display real-time weather data.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
-      { id: "icon-2", icon: DiCss3, name: "CSS" },
+      { id: "icon-2", icon: SiCss3, name: "CSS" },
       { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
     ],
   },
@@ -530,7 +474,7 @@ export const projects = [
     content: "My personal portfolio website developed using the MERN stack.",
     stack: [
       { id: "icon-1", icon: SiReact, name: "React.js" },
-      { id: "icon-2", icon: SiNextdotjs, name: "Node.js" },
+      { id: "icon-2", icon: SiNodedotjs, name: "Node.js" },
       { id: "icon-3", icon: SiExpress, name: "Express.js" },
       { id: "icon-4", icon: SiMongodb, name: "MongoDB" },
     ],
