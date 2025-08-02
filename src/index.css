@@ -20,6 +20,11 @@
   scroll-behavior: smooth;
 }
 
+/* Interactive elements get pointer cursor */
+button, a, [role="button"], .cursor-pointer {
+  cursor: pointer;
+}
+
 /* Firefox */
 * {
   scrollbar-width: thin;

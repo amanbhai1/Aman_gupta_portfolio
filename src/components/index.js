@@ -12,6 +12,7 @@ import Stats from "./Stats";
 import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
+import SplashCursor from "./SplashCursor";
 
 
 export {
@@ -27,4 +28,5 @@ export {
     Loading,
     BlogPosts,
     Achievements,
+    SplashCursor,
 };

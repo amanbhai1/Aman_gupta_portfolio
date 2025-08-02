@@ -1,4 +1,5 @@
 import parthmittal from "./parth.svg";
+import amangupta from "./aman-gupta.svg";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -47,6 +48,19 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import growtogether from "./grow-together.jpg";
+import routepulse from "./route-pulse.jpg";
+import movieapp from "./movie-app.jpg";
+import weatherapp from "./weather-app.jpg";
+import cloudquestlogo from "./cloud-quest-logo.png";
+import glalogo from "./gla-logo.png";
+import glaofficiallogo from "./gla-university-official.png";
+import freelancelogo from "./freelance-logo.png";
+import glauniversityicon from "./gla-university-icon.jpg";
+import veerabdulhameedicon from "./veer-abdul-hameed-icon.jpg";
+import sikandaraoraoicon from "./sikandra-rao-icon.jpg";
+import sihlogo from "./sih-logo.jpg";
+import hackvisionlogo from "./hackvision-logo.jpg";
 
 export {
   quotes,
@@ -80,6 +94,7 @@ export {
   zulip,
   cdc,
   parthmittal,
+  amangupta,
   profilePic,
   chargeswap,
   placeicon,
@@ -97,5 +112,18 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  growtogether,
+  routepulse,
+  movieapp,
+  weatherapp,
+  cloudquestlogo,
+  glalogo,
+  glaofficiallogo,
+  freelancelogo,
+  glauniversityicon,
+  veerabdulhameedicon,
+  sikandaraoraoicon,
+  sihlogo,
+  hackvisionlogo
 };

@@ -13,6 +13,7 @@ import {
   BlogPosts,
   Loading,
   Achievements,
+  SplashCursor,
 } from "./components";
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
   return (
     // A div to wrap the entire application
     <div className="bg-primary w-full overflow-hidden">
+      <SplashCursor />
       <AnimatePresence>
         {isLoading ? (
           <Loading key="loading" />
