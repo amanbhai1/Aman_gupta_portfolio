@@ -378,7 +378,7 @@ export const experiences = [
   },
   {
     organisation: "GLA University",
-    logo: glalogo,
+    logo: glaofficiallogo,
     link: "https://www.gla.ac.in/",
     positions: [
       {
@@ -682,7 +682,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: glalogo,
+    logo: glaofficiallogo,
   },
   {
     id: 4,
@@ -695,7 +695,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: glalogo,
+    logo: glaofficiallogo,
   },
   {
     id: 5,
