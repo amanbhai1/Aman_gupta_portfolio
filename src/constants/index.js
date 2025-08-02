@@ -297,12 +297,12 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiReact,
+        icon: SiNextdotjs,
         name: "NodeJS",
       },
       {
         id: "f-2",
-        icon: SiReact,
+        icon: SiExpress,
         name: "ExpressJS",
       },
       {
