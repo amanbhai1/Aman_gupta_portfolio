@@ -13,6 +13,7 @@ import {
   BlogPosts,
   Loading,
   Achievements,
+  SplashCursor,
 } from "./components";
 
 const App = () => {
