@@ -54,6 +54,7 @@ import movieapp from "./movie-app.jpg";
 import weatherapp from "./weather-app.jpg";
 import cloudquestlogo from "./cloud-quest-logo.png";
 import glalogo from "./gla-logo.png";
+import glaofficiallogo from "./gla-university-official.png";
 import freelancelogo from "./freelance-logo.png";
 import glauniversityicon from "./gla-university-icon.jpg";
 import veerabdulhameedicon from "./veer-abdul-hameed-icon.jpg";
