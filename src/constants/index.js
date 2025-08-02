@@ -350,7 +350,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Cloud Quest",
-    logo: "cloud-quest-logo.png", // Replace with the correct logo file path
+    logo: cloudquestlogo,
     link: "https://cloudquest.io/", // Replace with the actual URL if available
     positions: [
       {
@@ -371,7 +371,7 @@ export const experiences = [
   },
   {
     organisation: "GLA University",
-    logo: "gla-logo.png", // Replace with the correct logo file path
+    logo: glalogo,
     link: "https://www.gla.ac.in/",
     positions: [
       {
@@ -406,7 +406,7 @@ export const experiences = [
   },
   {
     organisation: "Freelance",
-    logo: "freelance-logo.png", // Replace with the correct logo file path
+    logo: freelancelogo,
     link: "",
     positions: [
       {
