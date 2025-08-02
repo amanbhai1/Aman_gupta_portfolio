@@ -646,7 +646,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: "", // Add the logo for Smart India Hackathon if available
+    logo: sihlogo,
   },
   {
     id: 2,
@@ -663,7 +663,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: "", // Add the logo for Hackvision if available
+    logo: hackvisionlogo,
   },
   {
     id: 3,
@@ -680,7 +680,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: "", // Add a relevant logo for GLA University or the events
+    logo: glalogo,
   },
   {
     id: 4,
@@ -693,7 +693,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: "", // Add a quiz-related logo if available
+    logo: glalogo,
   },
   {
     id: 5,
@@ -710,7 +710,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: "", // Add the logo for Cloud Quest if available
+    logo: cloudquestlogo,
   },
 ];
 
