@@ -58,6 +58,8 @@ import freelancelogo from "./freelance-logo.png";
 import glauniversityicon from "./gla-university-icon.jpg";
 import veerabdulhameedicon from "./veer-abdul-hameed-icon.jpg";
 import sikandaraoraoicon from "./sikandra-rao-icon.jpg";
+import sihlogo from "./sih-logo.jpg";
+import hackvisionlogo from "./hackvision-logo.jpg";
 
 export {
   quotes,
