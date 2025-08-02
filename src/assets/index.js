@@ -1,4 +1,5 @@
 import parthmittal from "./parth.svg";
+import amangupta from "./aman-gupta.svg";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
