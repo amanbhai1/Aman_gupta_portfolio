@@ -108,7 +108,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1_rwDAU56m-MJLSyaSTknPC_2_IterDOA/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/16dxb8z8urBe9yXKLi-7Xa4__-POq-Peo/view?usp=sharing";
 export const repoLink = "#";
 
 export const callToAction = "https://www.linkedin.com/in/aman-gupta-a11a672ab";
