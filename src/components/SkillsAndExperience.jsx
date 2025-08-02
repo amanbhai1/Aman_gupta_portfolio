@@ -2,6 +2,7 @@ import React from "react";
 import { experiences, skills } from "../constants";
 import { layout } from "../style";
 import { motion } from "framer-motion";
+import { BsLink45Deg } from "react-icons/bs";
 
 export const SkillIcon = ({ icon, name }) => {
   return (
