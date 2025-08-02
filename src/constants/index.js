@@ -34,6 +34,7 @@ import {
   weatherapp,
   cloudquestlogo,
   glalogo,
+  glaofficiallogo,
   freelancelogo,
   glauniversityicon,
   veerabdulhameedicon,
