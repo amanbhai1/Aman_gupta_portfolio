@@ -33,7 +33,10 @@ import {
   weatherapp,
   cloudquestlogo,
   glalogo,
-  freelancelogo
+  freelancelogo,
+  glauniversityicon,
+  veerabdulhameedicon,
+  sikandaraoraoicon
 } from "../assets";
 
 import {
