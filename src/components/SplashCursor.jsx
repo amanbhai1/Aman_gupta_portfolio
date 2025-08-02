@@ -1,64 +1,77 @@
 import React, { useEffect, useState } from 'react';
 
 const SplashCursor = () => {
-  const [clicks, setClicks] = useState([]);
+  const [splashes, setSplashes] = useState([]);
 
   useEffect(() => {
     const handleClick = (e) => {
       const id = Date.now();
-      const newClick = {
-        id,
-        x: e.clientX,
-        y: e.clientY,
-      };
-      
-      setClicks(prev => [...prev, newClick]);
-      
-      // Remove the click after animation completes
+      const particles = [];
+
+      // Create multiple particles for the splash effect
+      for (let i = 0; i < 8; i++) {
+        particles.push({
+          id: `${id}-${i}`,
+          x: e.clientX,
+          y: e.clientY,
+          angle: (i * 45) * (Math.PI / 180), // 8 directions
+          size: Math.random() * 8 + 4,
+          color: `hsl(${180 + Math.random() * 40}, 70%, 60%)`, // Teal variations
+        });
+      }
+
+      setSplashes(prev => [...prev, ...particles]);
+
+      // Remove particles after animation
       setTimeout(() => {
-        setClicks(prev => prev.filter(click => click.id !== id));
-      }, 1000);
+        setSplashes(prev => prev.filter(splash => !splash.id.startsWith(id.toString())));
+      }, 800);
     };
 
     document.addEventListener('click', handleClick);
-    
+
     return () => {
       document.removeEventListener('click', handleClick);
     };
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-50">
-      {clicks.map((click) => (
-        <div
-          key={click.id}
-          className="absolute animate-ping rounded-full bg-teal-400 opacity-75"
-          style={{
-            left: click.x - 10,
-            top: click.y - 10,
-            width: '20px',
-            height: '20px',
-            animation: 'splash 1s ease-out forwards',
-          }}
-        />
-      ))}
-      <style jsx>{`
-        @keyframes splash {
+    <>
+      <style>{`
+        @keyframes splash-particle {
           0% {
-            transform: scale(0);
+            transform: translate(0, 0) scale(1);
             opacity: 1;
           }
-          50% {
-            transform: scale(1);
-            opacity: 0.8;
-          }
           100% {
-            transform: scale(2);
+            transform: translate(var(--dx), var(--dy)) scale(0);
             opacity: 0;
           }
         }
+
+        .splash-particle {
+          animation: splash-particle 0.8s ease-out forwards;
+        }
       `}</style>
-    </div>
+
+      <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-50">
+        {splashes.map((splash) => (
+          <div
+            key={splash.id}
+            className="absolute rounded-full splash-particle"
+            style={{
+              left: splash.x - splash.size / 2,
+              top: splash.y - splash.size / 2,
+              width: splash.size,
+              height: splash.size,
+              backgroundColor: splash.color,
+              '--dx': `${Math.cos(splash.angle) * 60}px`,
+              '--dy': `${Math.sin(splash.angle) * 60}px`,
+            }}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
