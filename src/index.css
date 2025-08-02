@@ -20,6 +20,16 @@
   scroll-behavior: smooth;
 }
 
+/* Enhanced cursor styles for splash effect */
+body {
+  cursor: crosshair;
+}
+
+/* Interactive elements get pointer cursor */
+button, a, [role="button"], .cursor-pointer {
+  cursor: pointer;
+}
+
 /* Firefox */
 * {
   scrollbar-width: thin;
