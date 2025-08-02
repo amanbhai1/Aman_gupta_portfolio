@@ -28,4 +28,5 @@ export {
     Loading,
     BlogPosts,
     Achievements,
+    SplashCursor,
 };
