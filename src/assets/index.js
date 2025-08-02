@@ -48,6 +48,13 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import growtogether from "./grow-together.jpg";
+import routepulse from "./route-pulse.jpg";
+import movieapp from "./movie-app.jpg";
+import weatherapp from "./weather-app.jpg";
+import cloudquestlogo from "./cloud-quest-logo.png";
+import glalogo from "./gla-logo.png";
+import freelancelogo from "./freelance-logo.png";
 
 export {
   quotes,
