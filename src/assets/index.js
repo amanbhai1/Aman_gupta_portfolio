@@ -106,5 +106,12 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  growtogether,
+  routepulse,
+  movieapp,
+  weatherapp,
+  cloudquestlogo,
+  glalogo,
+  freelancelogo
 };
