@@ -116,5 +116,8 @@ export {
   weatherapp,
   cloudquestlogo,
   glalogo,
-  freelancelogo
+  freelancelogo,
+  glauniversityicon,
+  veerabdulhameedicon,
+  sikandaraoraoicon
 };
