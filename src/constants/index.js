@@ -36,7 +36,9 @@ import {
   freelancelogo,
   glauniversityicon,
   veerabdulhameedicon,
-  sikandaraoraoicon
+  sikandaraoraoicon,
+  sihlogo,
+  hackvisionlogo
 } from "../assets";
 
 import {
