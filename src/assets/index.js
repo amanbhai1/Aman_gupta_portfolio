@@ -119,6 +119,7 @@ export {
   weatherapp,
   cloudquestlogo,
   glalogo,
+  glaofficiallogo,
   freelancelogo,
   glauniversityicon,
   veerabdulhameedicon,
