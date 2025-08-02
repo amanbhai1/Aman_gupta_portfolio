@@ -141,7 +141,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: "gla_university_icon", // Replace with the actual icon for GLA University
+    icon: glauniversityicon,
     title: "GLA University, Mathura",
     degree: "Bachelor of Computer Applications (BCA)",
     duration: "2021 - 2024",
@@ -150,7 +150,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: "veer_abdul_hameed_icon", // Replace with the actual icon for Veer Abdul Hameed Inter College
+    icon: veerabdulhameedicon,
     title: "Veer Abdul Hameed Inter College, Sikandra Rao",
     degree: "Intermediate",
     duration: "May 2020",
@@ -159,7 +159,7 @@ export const educationList = [
   },
   {
     id: "education-3",
-    icon: "veer_abdul_hameed_icon", // Replace with the actual icon for Veer Abdul Hameed Inter College
+    icon: veerabdulhameedicon,
     title: "Veer Abdul Hameed Inter College, Sikandra Rao",
     degree: "High School",
     duration: "May 2018",
@@ -168,7 +168,7 @@ export const educationList = [
   },
   {
     id: "education-4",
-    icon: "sikandra_rao_icon", // Replace with the actual icon for M.DOPP
+    icon: sikandaraoraoicon,
     title: "G.K.I.I.T, Sikandra Rao",
     degree: "Master Diploma in Computer Professional Publishing (M.DOPP)",
     duration: "June 2019",
