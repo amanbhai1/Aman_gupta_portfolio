@@ -435,7 +435,7 @@ export const projects = [
     title: "RoutePulse",
     github: "",
     link: "",
-    // image: routepulse_image, // Replace with the actual image variable
+    image: routepulse,
     content:
       "A web application for Automatic Bus Scheduling and Route Management, developed using React.js, Node.js, Express.js, and MongoDB.",
     stack: [
@@ -450,7 +450,7 @@ export const projects = [
     title: "Grow Together",
     github: "",
     link: "",
-    // image: growtogether_image, // Replace with the actual image variable
+    image: growtogether,
     content:
       "A collaborative learning platform featuring user groups, chatrooms, collaborative document editing, live video sessions, and progress tracking.",
     stack: [
@@ -465,7 +465,7 @@ export const projects = [
     title: "Movie Recommendation App",
     github: "",
     link: "",
-    // image: movie_recommendation_image, // Replace with the actual image variable
+    image: movieapp,
     content: "A Movie Recommendation app using HTML, CSS, and JavaScript, with data fetched from a public API.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
@@ -478,7 +478,7 @@ export const projects = [
     title: "Qurtle Innovations",
     github: "",
     link: "",
-    // image: qurtle_image, // Replace with the actual image variable
+    image: portfolio,
     content: "Corporate website developed for Qurtle Innovations during my internship at Cloud Quest.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
@@ -493,7 +493,7 @@ export const projects = [
     title: "To-Do List",
     github: "",
     link: "",
-    // image: todo_image, // Replace with the actual image variable
+    image: todo,
     content: "A simple and efficient To-Do List app built with HTML, CSS, and JavaScript.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
@@ -506,7 +506,7 @@ export const projects = [
     title: "Weather App",
     github: "",
     link: "",
-    // image: weather_image, // Replace with the actual image variable
+    image: weatherapp,
     content: "A Weather app utilizing a public weather API to fetch and display real-time weather data.",
     stack: [
       { id: "icon-1", icon: AiFillHtml5, name: "HTML" },
@@ -519,7 +519,7 @@ export const projects = [
     title: "Personal Portfolio",
     github: "",
     link: "",
-    // image: portfolio_image, // Replace with the actual image variable
+    image: portfolio,
     content: "My personal portfolio website developed using the MERN stack.",
     stack: [
       { id: "icon-1", icon: SiReact, name: "React.js" },
